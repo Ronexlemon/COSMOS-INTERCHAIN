@@ -20,6 +20,8 @@ func main() {
 	interchain= "COSMOS";
 	//Multiple Variable Declaration
 var aa,bb,c,dd int =1,2,3,4
+//constants
+const pie int16=60
 	fmt.Println("Hellow Interchain")
 	fmt.Println(num);
 	fmt.Println(x);
@@ -28,4 +30,5 @@ var aa,bb,c,dd int =1,2,3,4
 	fmt.Println(d);
 	fmt.Println(interchain);
 	fmt.Println(aa,bb,c,dd)
+	fmt.Println(pie)
 }
