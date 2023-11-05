@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 )
-// func add(num1 int,num2 int){
-// 	sum:= num1 +num2;
-// 	return;
+func add(num1 int,num2 int)(int){
+	sum:= num1 +num2;
+	return sum;
 
-// }
+}
 func main() {
 	var num int = 2
 	x := "yoolow"
@@ -30,5 +30,6 @@ const pie int16=60
 	fmt.Println(d);
 	fmt.Println(interchain);
 	fmt.Println(aa,bb,c,dd)
-	fmt.Println(pie)
+	fmt.Println(pie);
+	fmt.Println(add(3,4))
 }
