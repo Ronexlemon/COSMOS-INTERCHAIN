@@ -13,6 +13,7 @@ func main() {
 	array()
 	slice()
 	operator()
+	forLoop()
 	var num int = 2
 	x := "yoolow"
 	//varibale without initial value
