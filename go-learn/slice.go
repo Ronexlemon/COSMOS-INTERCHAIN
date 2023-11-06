@@ -13,5 +13,8 @@ fmt.Println(slice_name);
 //create a slice with the make function
 slice_make:= make([]string,5,10)
 fmt.Println(slice_make);
+//slice append
+slice_name= append(slice_name, 30,40);
+fmt.Println(slice_name)
 
 }
