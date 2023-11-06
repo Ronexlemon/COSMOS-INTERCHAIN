@@ -12,4 +12,10 @@ func array() {
 	fmt.Println(array_num);
 	fmt.Println(array_names);
 	fmt.Println(nameit_array);
+	//change array elements
+	nameit_array[2]=90;
+	fmt.Println(nameit_array);
+	//find array length
+	fmt.Println(len(array_names))
+
 }
