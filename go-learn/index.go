@@ -12,6 +12,7 @@ func add(num1 int, num2 int) int {
 func main() {
 	array()
 	slice()
+	operator()
 	var num int = 2
 	x := "yoolow"
 	//varibale without initial value
