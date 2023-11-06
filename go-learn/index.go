@@ -14,6 +14,7 @@ func main() {
 	slice()
 	operator()
 	forLoop()
+	fmt.Println(summation(3,4));
 	var num int = 2
 	x := "yoolow"
 	//varibale without initial value
